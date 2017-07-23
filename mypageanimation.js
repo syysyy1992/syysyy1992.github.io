@@ -41,10 +41,18 @@ $(document).ready(function(){
       //  console.log("currentLink.attr('href'):",currentLink.attr("href"));
 
     });
-    $(function(){
-        $(".carousel").carousel({
-            interval:2000,
-            wrap:true
-        })
-    })
+
+
+    // var images = $(".img");
+    // var pos = 0;
+    // var len = images.length;
+    //
+    // setInterval(function(){
+    //
+    //     images[pos].style.display = 'none';
+    //     pos = ++pos == len ? 0 : pos;
+    //     images[pos].style.display = 'inline';
+    //
+    // },1000);
+
 });
